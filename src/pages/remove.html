@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="bg-secondary-color p-2">
+    <header class="bg-secondary-color p-2 fixed top-0 left-0 w-full">
         <nav class="mx-auto w-[90%]">
           <section class="flex flex-wrap items-center justify-between">
             <!--Logo-->
@@ -63,8 +63,8 @@
     <!-- End Header -->
 
     <!-- Main Content -->
-    <main class="w-[90%] mx-auto p-2">
-        <section class="bg-on-bg-color h-[500px] rounded mt-10 flex flex-col justify-center">
+    <main class="w-[90%] mx-auto p-2 ">
+        <section class="bg-on-bg-color h-[500px] rounded mt-28 flex flex-col justify-center">
             <h3 class="text-h3 font-bold text-center">Upload image to <br> remove the background</h3>       
             <section class="flex items-center justify-center w-full mt-5">   
               <label for="drop-file" class="bg-primary-color text-button font-bold text-on-primary-color cursor-pointer w-1/2 p-3 rounded text-center transition duration-300 hover:border hover:bg-variant-primary-color hover:delay-300">
@@ -88,7 +88,9 @@
               <section>
                 <p class="font-bold text-mainBody"><span class="text-primary-color">Vann</span> Remover</p>
                 <div class="w-[50%] mt-3">
-                  <img src="/src/img/logo-1.png" alt="logo image" class="w-full">
+                  <a href="/src/index.html">
+                    <img src="/src/img/logo-1.png" alt="logo image" class="w-full">
+                  </a>
                   <p class="text-[14px] mt-3">
                     Remove image backgrounds automatically
                     in 5 seconds with just one click.
