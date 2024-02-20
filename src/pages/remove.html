@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove</title>
+    <link href="/src/output.css" rel="stylesheet"/>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!--Link Flowbite component-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-secondary-color p-2">
+        <nav class="mx-auto w-[90%]">
+          <section class="flex flex-wrap items-center justify-between">
+            <!--Logo-->
+            <a href="index.html" class="w-[150px] object-cover">
+              <img src="/src/img/logo-1.png" alt="" class="w-full h-full">
+            </a>
+            <!--End Logo-->
+  
+            <!--Hamberber Icon-->
+            <section id="" class="flex items-center">
+              <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center justify-center text-nav text-on-primary-color lg:hidden" aria-controls="navbar-default" aria-expanded="false">
+                <i class="fa-solid fa-bars "></i>
+              </button>
+            </section>
+            <!--End Hamberber Icon-->
+  
+            <!-- Link Menu-->
+            <section class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+              <ul class="flex flex-col lg:items-center lg:flex-row gap-5 lg:mt-0 text-on-primary-color text-nav font-bold">
+                <li><a href="/src/index.html">Home</a></li>
+                <li><a href="#" class="text-primary-color">Remove Background</a></li>
+                <li><a href="/src/pages/review.html">Review</a></li>
+                <li><a href="/src/pages/remove.html">About Us</a></li>
+                <li>
+                  <a href="">
+                    <button class="bg-primary-color text-on-primary-color transition duration-300 hover:bg-variant-primary-color hover:delay-300 text-button font-normal rounded p-1.5 px-3">
+                      <span>Login</span>
+                      <i class="fa-solid fa-circle-user"></i>
+                  </button>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <button class="text-primary-color transition duration-300 hover:border hover:border-variant-primary-color hover:delay-300 text-button font-normal rounded p-1.5 px-3 border border-primary-color lg:mt-0">
+                    <span>Register</span>
+                    <i class="fa-solid fa-user-plus"></i>
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <!--End Link Menu-->
+          </section>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main Content -->
+    <main class="w-[90%] mx-auto p-2">
+        <section class="bg-on-bg-color h-[500px] rounded mt-10 flex flex-col justify-center">
+            <h3 class="text-h3 font-bold text-center">Upload image to <br> remove the background</h3>       
+            <section class="flex items-center justify-center w-full mt-5">   
+              <label for="drop-file" class="bg-primary-color text-button font-bold text-on-primary-color cursor-pointer w-1/2 p-3 rounded text-center transition duration-300 hover:border hover:bg-variant-primary-color hover:delay-300">
+                <span class="">Upload Image</span>   
+                <input id="drop-file" type="file" class="hidden"/>
+              </label>
+            </section> 
+            <section class="flex flex-col items-center justify-center mt-5">
+              <p class="mb-2 text-sm text-gray-500"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+              <p class="text-xs text-gray-500">paste image or URL</p>
+          </section>
+          </section>
+    </main>
+    <!-- #End Main Content -->
+
+    <!--Footer-->
+    <footer class="mt-10"> 
+        <section class="bg-secondary-color">
+          <section class="w-[90%] mx-auto p-5 bg-secondary-color">
+            <section class="grid md:grid-cols-2 lg:grid-cols-4 text-nav font-medium text-on-primary-color justify-center"> 
+              <section>
+                <p class="font-bold text-mainBody"><span class="text-primary-color">Vann</span> Remover</p>
+                <div class="w-[50%] mt-3">
+                  <img src="/src/img/logo-1.png" alt="logo image" class="w-full">
+                  <p class="text-[14px] mt-3">
+                    Remove image backgrounds automatically
+                    in 5 seconds with just one click.
+                  </p>
+                </div>
+              </section>
+              <section>
+                <p class="text-body mt-2 text-primary-color">USEFULL LINKS</p>
+                <ul class="text-[14px] mt-3">
+                  <li>
+                    <a href="/src/index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="/src/pages/review.html">Review</a>
+                  </li>
+                  <li>
+                    <a href="/src/pages/aboutus.html">About Us</a>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <p class="text-body mt-2 text-primary-color">PRODUCTS</p>
+                <ul class="text-[14px] mt-3">
+                  <li>
+                    <a href="#">Remove Backgound</a>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <p class="text-body mt-2 text-primary-color">CONTACT US</p>
+                <address class="text-[14px] font-normal mt-4">
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="mx-2">No. xxx, St. xxx, Sangkat Tuek Thlar,
+                      Khan Sen Sok, Phnom Penh
+                    </span>
+                  </p>  
+                  <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:vannremover@gmail.com" class="mx-2">
+                      vannremover@gmail.com
+                    </a>
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="mx-2">(+855) xx xxx xxx xx</span>
+                  </p>
+                </address>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section class="w-[90%] p-5 mx-auto flex justify-between text-[14px]">
+          <p> &copy; 2024 Vann Remover from iSTAD | All Rights Reserved</p>
+          <ul class="flex gap-3 cursor-pointer">
+            <li><a href="#"></a><i class="fa-brands fa-facebook"></i></li>
+            <li><a href="#"></a><i class="fa-brands fa-youtube"></i></li>
+            <li><a href="#"></a><i class="fa-brands fa-linkedin"></i></li>
+            <li><a href="#"></a><i class="fa-brands fa-telegram"></i></li>
+            <li><a href="#"></a><i class="fa-brands fa-square-x-twitter"></i></li>
+          </ul>
+        </section>
+    </footer>
+    <!--End Footer-->
+</body>
+</html>
